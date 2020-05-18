@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mybill/mybill",
+    "pages/my/my",
+    "pages/record/record",
+    "pages/chart/chart",
+    
+    "pages/type/type"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#31adee",
+    "navigationBarTitleText": "生活小算",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#e6e6e6",
+    "selectedColor": "#31adee",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "./images/home.png",
+      "selectedIconPath": "./images/home-active.png"
+    }, {
+      "pagePath": "pages/record/record",
+      "text": "记账",
+      "iconPath": "./images/record.png",
+      "selectedIconPath": "./images/record-active.png"
+    }, {
+      "pagePath": "pages/chart/chart",
+      "text": "图表",
+      "iconPath": "./images/chart.png",
+      "selectedIconPath": "./images/chart-active.png"
+    }, {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "./images/my.png",
+      "selectedIconPath": "./images/my-active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
